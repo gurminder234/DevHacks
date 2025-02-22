@@ -53,18 +53,19 @@ public class testPassword {
         String updateCracked = "";
         System.out.println(Main.CRACKED.length());
         for (int j = 0; j < Main.CRACKED.length(); j++) {
-            
-            for (int i = 0; i < specialChars.length(); i++) {
-                char testCurr = specialChars.charAt(i);
-                if (Main.CRACKED.charAt(j) == '*') {
-                if (j == password.getPassword().indexOf(testCurr)) {
-                    updateCracked += testCurr;
-                } else {
-                    updateCracked += "*";
+            if (Main.CRACKED.charAt(j) == '*') {
+                boolean found = false;
+                for (int i = 0; i < specialChars.length() && !found; i++) {
+                    if (specialChars.charAt(i) == password.getPassword().charAt(j)) {
+                        found = true;
+                        updateCracked += specialChars.charAt(i);
+                    }
+                }
+                if (!found) {
+                    updateCracked += Main.CRACKED.charAt(j);
                 }
             } else {
                 updateCracked += Main.CRACKED.charAt(j);
-            }
             }
         }
         Main.CRACKED = updateCracked;

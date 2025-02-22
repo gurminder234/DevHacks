@@ -1,20 +1,28 @@
 What is the length of your password?
-Does your password contains your name?
-Does your password contain your date of birth?
-Does your password contain your Hometown?
-How many upper letters in your password if any ?
-How many special characters in your password?
-How many numbers in your password?
-Are there any repeating characters in your password?
-Does your password contain any famous landmark?
-Is your password a TV/Anime/Movie character?
-Does your password contain the name of a family member?
-Does your password contain keyboard patterns (e.g., "123456", "qwerty", "asdfgh")?
-Is your password based on a fictional place (e.g., Hogwarts, Gotham)?
-Is your password a simple phrase (e.g., "Iloveyou", "letmein")?
-Is your password fewer than 12 characters long?
-Does your password contain a sports team name?
-Does your password contain your favorite celebrity's name?
-Does your password include a birth year (e.g., "1999", "2000")?
-Does your password contain your school/university name?
-is your password in english?
+
+
+
+
+Does your password contains your name? //Guri
+Does your password contain your date of birth? //Guri
+Does your password contain your Hometown? //Guri
+How many upper letters in your password if any ? //armaan
+
+
+How many special characters in your password? //done
+How many numbers in your password? //done
+
+
+Are there any repeating characters in your password? //armaan
+Does your password contain any famous landmark? //armaan
+Is your password a TV/Anime/Movie character? //armaan
+Does your password contain the name of a family member? // som
+Does your password contain keyboard patterns (e.g., "123456", "qwerty", "asdfgh")? //som
+Is your password based on a fictional place (e.g., Hogwarts, Gotham)? //som
+Is your password fewer than 12 characters long? //som
+Does your password contain a sports team name? //saarth
+Does your password contain your favorite celebrity's name? //saarth
+Does your password include a birth year (e.g., "1999", "2000")? //saarth
+Does your password contain your school/university name? //divyansh
+is your password in english? //divyansh
+Are u sane? //divyansh
