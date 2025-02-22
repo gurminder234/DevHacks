@@ -31,7 +31,7 @@ public class PersonData {
         return this.dob;
     }
 
-    public String getHometowm() {
+    public String getHometown() {
         return this.hometown;
     }
 

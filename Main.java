@@ -70,6 +70,13 @@ public class Main {
             System.out.println("Password cracked: " + CRACKED);
 
             
+            System.out.println("Password cracked: " + CRACKED);
+
+
+
+            
+
+            
 
 
 
@@ -113,8 +120,12 @@ public class Main {
                         System.out.println("Please enter a number.");
                   }
             }
+            scanner.close();
             return num; 
       }
+
+      
+
     }
 
 

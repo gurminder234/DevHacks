@@ -71,4 +71,120 @@ public class testPassword {
         Main.CRACKED = updateCracked;
         System.out.println(Main.CRACKED.length());
     }
+
+    public static void testPasswordFirstName(PersonData person) {
+        String updateCracked = "";
+        System.out.println(Main.CRACKED.length());
+        for (int j = 0; j < Main.CRACKED.length(); j++) {
+            if (Main.CRACKED.charAt(j) == '*') {
+                boolean found = false;
+                for (int i = 0; i < person.getFirstName().length() && !found; i++) {
+                    if (person.getFirstName().charAt(i) == person.getFirstName().charAt(j)) {
+                        found = true;
+                        updateCracked += person.getFirstName().charAt(i);
+                    }
+                }
+                if (!found) {
+                    updateCracked += Main.CRACKED.charAt(j);
+                }
+            } else {
+                updateCracked += Main.CRACKED.charAt(j);
+            }
+        }
+        Main.CRACKED = updateCracked;
+        System.out.println(Main.CRACKED.length());
+
+    }
+
+    public static void testPasswordLastName(PersonData person) {
+        String updateCracked = "";
+        System.out.println(Main.CRACKED.length());
+        for (int j = 0; j < Main.CRACKED.length(); j++) {
+            if (Main.CRACKED.charAt(j) == '*') {
+                boolean found = false;
+                for (int i = 0; i < person.getLastName().length() && !found; i++) {
+                    if (person.getLastName().charAt(i) == person.getLastName().charAt(j)) {
+                        found = true;
+                        updateCracked += person.getLastName().charAt(i);
+                    }
+                }
+                if (!found) {
+                    updateCracked += Main.CRACKED.charAt(j);
+                }
+            } else {
+                updateCracked += Main.CRACKED.charAt(j);
+            }
+        }
+        Main.CRACKED = updateCracked;
+        System.out.println(Main.CRACKED.length());
+    }
+
+    public static void testPasswordPreferredName(PersonData person) {
+        String updateCracked = "";
+        System.out.println(Main.CRACKED.length());
+        for (int j = 0; j < Main.CRACKED.length(); j++) {
+            if (Main.CRACKED.charAt(j) == '*') {
+                boolean found = false;
+                for (int i = 0; i < person.getPreferredName().length() && !found; i++) {
+                    if (person.getPreferredName().charAt(i) == person.getPreferredName().charAt(j)) {
+                        found = true;
+                        updateCracked += person.getPreferredName().charAt(i);
+                    }
+                }
+                if (!found) {
+                    updateCracked += Main.CRACKED.charAt(j);
+                }
+            } else {
+                updateCracked += Main.CRACKED.charAt(j);
+            }
+        }
+        Main.CRACKED = updateCracked;
+        System.out.println(Main.CRACKED.length());
+    }
+
+    public static void testPasswordDOB(PersonData person) {
+        String updateCracked = "";
+        System.out.println(Main.CRACKED.length());
+        for (int j = 0; j < Main.CRACKED.length(); j++) {
+            if (Main.CRACKED.charAt(j) == '*') {
+                boolean found = false;
+                for (int i = 0; i < person.getDOB().length() && !found; i++) {
+                    if (person.getDOB().charAt(i) == person.getDOB().charAt(j)) {
+                        found = true;
+                        updateCracked += person.getDOB().charAt(i);
+                    }
+                }
+                if (!found) {
+                    updateCracked += Main.CRACKED.charAt(j);
+                }
+            } else {
+                updateCracked += Main.CRACKED.charAt(j);
+            }
+        }
+        Main.CRACKED = updateCracked;
+        System.out.println(Main.CRACKED.length());
+    }
+
+    public static void testPasswordHometown(PersonData person) {
+        String updateCracked = "";
+        System.out.println(Main.CRACKED.length());
+        for (int j = 0; j < Main.CRACKED.length(); j++) {
+            if (Main.CRACKED.charAt(j) == '*') {
+                boolean found = false;
+                for (int i = 0; i < person.getHometown().length() && !found; i++) {
+                    if (person.getHometown().charAt(i) == person.getHometown().charAt(j)) {
+                        found = true;
+                        updateCracked += person.getHometown().charAt(i);
+                    }
+                }
+                if (!found) {
+                    updateCracked += Main.CRACKED.charAt(j);
+                }
+            } else {
+                updateCracked += Main.CRACKED.charAt(j);
+            }
+        }
+        Main.CRACKED = updateCracked;
+        System.out.println(Main.CRACKED.length());
+    }
 }
